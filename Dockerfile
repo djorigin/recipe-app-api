@@ -3,8 +3,8 @@ MAINTAINER Darklight App Developer Ltd
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirments.txt /requirments.txt
-RUN pip install -r /requirments.txt
+COPY ./requirements.txt /requirements.txt
+RUN pip install -r /requirements.txt
 
 RUN mkdir /app
 WORKDIR /app
